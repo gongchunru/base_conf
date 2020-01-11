@@ -1,16 +1,16 @@
 # > OneDrive
-# PROCESS-NAME,OneDrive
-# PROCESS-NAME,OneDriveUpdater
-USER-AGENT,OneDrive*
-USER-AGENT,OneDriveiOSApp*
+# PROCESS-NAME,OneDrive,OneDrive
+# PROCESS-NAME,OneDriveUpdater,OneDrive
+USER-AGENT,OneDrive*,OneDrive
+USER-AGENT,OneDriveiOSApp*,OneDrive
 # > Microsoft
-DOMAIN-SUFFIX,microsoft.com
-DOMAIN-SUFFIX,msecnd.net
-DOMAIN-SUFFIX,office365.com
-DOMAIN-SUFFIX,outlook.com
-DOMAIN-SUFFIX,s-microsoft.com
-DOMAIN-SUFFIX,visualstudio.com
-DOMAIN-SUFFIX,windows.com
-DOMAIN-SUFFIX,windowsupdate.com
-DOMAIN,officecdn-microsoft-com.akamaized.net
-DOMAIN-SUFFIX,sharepoint.com
+DOMAIN-SUFFIX,microsoft.com,OneDrive
+DOMAIN-SUFFIX,msecnd.net,OneDrive
+DOMAIN-SUFFIX,office365.com,OneDrive
+DOMAIN-SUFFIX,outlook.com,OneDrive
+DOMAIN-SUFFIX,s-microsoft.com,OneDrive
+DOMAIN-SUFFIX,visualstudio.com,OneDrive
+DOMAIN-SUFFIX,windows.com,OneDrive
+DOMAIN-SUFFIX,windowsupdate.com,OneDrive
+DOMAIN,officecdn-microsoft-com.akamaized.net,OneDrive
+DOMAIN-SUFFIX,sharepoint.com,OneDrive
